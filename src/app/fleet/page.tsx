@@ -9,7 +9,7 @@ export default function Fleet() {
         imgSrc='/N3816Q.jpeg'
       >
         <ul>
-          <li>Two G5's</li>
+          <li>Two G5&apos;s</li>
           <li>Garmin 650</li>
           <li>Useful Load: 817 lbs</li>
         </ul>
