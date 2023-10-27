@@ -1,6 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import Header from '@/components/Header'
+import NavBar from '@/components/NavBar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +18,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Header />
+        <div
+          className='grid max-w-5xl m-auto'
+          style={{ gridTemplateColumns: '12rem 1fr' }}
+        >
+          <NavBar />
+          <main>{children}</main>
+        </div>
+      </body>
     </html>
   )
 }
