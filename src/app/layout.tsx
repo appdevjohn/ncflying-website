@@ -20,10 +20,7 @@ export default function RootLayout({
     <html lang='en'>
       <body className={inter.className}>
         <Header />
-        <div
-          className='grid max-w-5xl m-auto'
-          style={{ gridTemplateColumns: '12rem 1fr' }}
-        >
+        <div id='page-container'>
           <NavBar />
           <main>{children}</main>
         </div>

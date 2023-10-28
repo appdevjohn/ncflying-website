@@ -1,46 +1,95 @@
-export default function Fleet() {
+import Link from 'next/link'
+
+export default function MembershipInfo() {
   return (
     <>
       <section>
-        <h3>Club Membership</h3>
+        <h1>Membership Info</h1>
+        <h3>Owning the Sky Together</h3>
         <p>
-          Triangle North Flying Club is an equitable non-profit organization.
-          Our airplanes are flown exclusively by our members.
+          Welcome to the Triangle North Flying Club family! As a member,
+          you&apos;re not just a participant; you&apos;re an integral part of a
+          community dedicated to the love of flying. With ownership comes
+          responsibility, and at Triangle North Flying Club, we believe in
+          transparency and shared commitment.
         </p>
       </section>
       <section>
-        <h3>Pricing</h3>
-        <div className='py-2'>
-          <h5>Hourly Cost - $95/hour dry</h5>
+        <h3>Financial Structure</h3>
+        <section>
+          <h5>Pricing</h5>
           <p>
-            The hourly cost represents only the wear and tear on the airplane.
+            <strong>Usage Fee:</strong> $95 per hobbs hour dry. This fee covers
+            the direct costs associated with the operation of our aircraft.
           </p>
-        </div>
-        <div className='py-2'>
-          <h5>Monthly Fee - $70/month</h5>
           <p>
-            Our monthly fee pays for the fixed costs of the club. These include
-            the cost of insurance, tie-down spots, and other monthly expenses.
+            <strong>Monthly Fee:</strong> $70. This fee helps support ongoing
+            operational expenses and ensures the availability and maintenance of
+            our aircraft.
           </p>
-        </div>
-        <div className='py-2'>
-          <h5>Buy-In - $5000</h5>
           <p>
-            As we gain new members, we need to aquire more airplanes to maintain
-            our member-to-airplane ratio of 10 people per airplane. The buy-in
-            cost contributes to the aquisistion of an additional club airplane.
+            <strong>Buy In:</strong> $5000. This one-time payment secures your
+            stake in the club and helps us aquire our fleet.
           </p>
-        </div>
+        </section>
+        <section>
+          <h5>Ownership Stake</h5>
+          <p>
+            As a non-profit organization, we operate with a unique model. Every
+            member of Triangle North Flying Club has an equal stake in the
+            organization, giving you a say in important decisions and a share of
+            the club&apos;s assets.
+          </p>
+        </section>
+        <section>
+          <h5>Shared Responsibilities</h5>
+          <p>
+            <strong>Emergency Fund:</strong> While we maintain an emergency fund
+            in savings, unforeseen circumstances may require additional
+            financial support. In such cases, members may be asked to contribute
+            a one-time amount to address unexpected costs. This shared
+            responsibility ensures the stability and longevity of our club.
+          </p>
+          <p>
+            <strong>Voting Rights:</strong> All members have the right to
+            participate in decision-making processes. From selecting club
+            officers to approving major financial decisions, your voice matters.
+          </p>
+        </section>
       </section>
       <section>
-        <h3>What is it like being a member?</h3>
-        <ul className='list-disc'>
-          <li>24-hour access to the airplanes</li>
-          <li>Online scheduling</li>
-          <li>Flight instruction through Total Flight Solutions</li>
-          <li>Monthly club meetings</li>
-          <li>Low airplane-to-member ratio of 10:1</li>
-        </ul>
+        <h3>Not Just Rentals, But Ownership</h3>
+        <p>
+          It&apos;s essential to note that Triangle North Flying Club is not an
+          airplane rental business. We are a community of aviation enthusiasts
+          who collectively own and manage our fleet. This unique approach
+          ensures that every member has a personal investment in the well-being
+          of our aircraft and the success of our club.
+        </p>
+      </section>
+      <section>
+        <h3>Join the Adventure!</h3>
+        <p>
+          Ready to embark on this exciting journey with us? Becoming a member of
+          Triangle North Flying Club is more than just a financial commitment;
+          it&apos;s an investment in shared experiences, a love for flying, and
+          a community of like-minded individuals.
+        </p>
+        <Link
+          href='https://docs.google.com/forms/d/e/1FAIpQLSftCCKYJED0uNI2wM0yBJ-Y49xrT1dnoe_lIId8dNFtaD5L6w/viewform?usp=sf_link'
+          target='_blank'
+        >
+          Apply to Join
+        </Link>
+      </section>
+      <section>
+        <h3>Have Questions?</h3>
+        <p>
+          If you have any questions or need clarification on our financial
+          structure and responsibilities, feel free to contact us. We&apos;re
+          here to assist you in every step of your aviation adventure.
+        </p>
+        <Link href='mailto:admin@ncflying.club'>Contact Us</Link>
       </section>
     </>
   )
