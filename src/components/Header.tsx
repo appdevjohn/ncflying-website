@@ -23,7 +23,7 @@ const Header: FC = () => {
   }
 
   return (
-    <header className='flex flex-row justify-between items-center max-w-5xl mb-2 py-2 mx-4 sm:flex-row-reverse sm:m-auto'>
+    <header className='flex flex-row justify-between items-center max-w-5xl mb-2 py-2 mx-4 sm:flex-row-reverse sm:m-auto sm:px-4'>
       <button onClick={showDrawerHandler}>
         <Icon path={mdiMenu} size={2} className='sm:hidden' />
       </button>

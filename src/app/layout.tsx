@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang='en'>
       <body className={inter.className}>
         <Header />
-        <div id='page-container'>
+        <div id='page-container' className='sm:px-4'>
           <NavBar />
           <main>{children}</main>
         </div>
