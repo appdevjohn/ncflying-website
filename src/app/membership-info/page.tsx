@@ -19,8 +19,10 @@ export default function MembershipInfo() {
         <section>
           <h5>Pricing</h5>
           <p>
-            <strong>Usage Fee:</strong> $95 per hobbs hour dry. This fee covers
-            the direct costs associated with the operation of our aircraft.
+            <strong>Usage Fee:</strong> This will depend on the airplane you
+            fly, but for our first airplane the cost is $95 per hobbs hour
+            (dry). This fee covers the direct costs associated with the
+            operation of our aircraft.
           </p>
           <p>
             <strong>Monthly Fee:</strong> $70. This fee helps support ongoing

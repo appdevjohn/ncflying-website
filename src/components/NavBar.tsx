@@ -2,6 +2,10 @@
 
 import { FC } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
+
+import lightModeLogo from '../../public/logo.png'
+import darkModeLogo from '../../public/logo-dark.png'
 
 const NavBar: FC = () => {
   const hideDrawerHandler = () => {
@@ -28,6 +32,13 @@ const NavBar: FC = () => {
           'hidden top-0 bottom-0 left-0 w-9/12 bg-white dark:bg-slate-900 z-20 p-8 pt-12 shadow-lg transition-transform -translate-x-full sm:block sm:block sm:translate-x-0 sm:shadow-none sm:p-0'
         }
       >
+        <picture>
+          <source
+            srcSet={darkModeLogo.src}
+            media='(prefers-color-scheme: dark)'
+          />
+          <Image src={lightModeLogo} width={150} height={150} alt='Logo' />
+        </picture>
         <ul>
           <li className='nav-link'>
             <Link href='/' onClick={hideDrawerHandler}>

@@ -29,7 +29,9 @@ export default function FAQ() {
         <h5>What are the membership fees, and what do they cover?</h5>
         <p>The membership fees for the club are as follows:</p>
         <p>
-          <strong>Usage Fee:</strong> $95 per hobbs hour dry.
+          <strong>Usage Fee:</strong> This will depend on the airplane you want
+          to fly, but for the airplane we&apos;re starting with, the cost will
+          be $95 per hobbs hour (dry).
         </p>
         <p>
           <strong>Monthly Fee:</strong> $70.
@@ -42,7 +44,7 @@ export default function FAQ() {
           club&apos;s overall sustainability. You can learn more about it on our
           Membership Info page.
         </p>
-        <Link href='/membership-info'>Membership Info</Link>.
+        <Link href='/membership-info'>Membership Info</Link>
       </section>
       <section>
         <h5>Can I join if I don&apos;t have a pilot&apos;s license?</h5>

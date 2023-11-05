@@ -5,6 +5,9 @@ import Image from 'next/image'
 import { Icon } from '@mdi/react'
 import { mdiMenu } from '@mdi/js'
 
+import lightModeLogo from '../../public/logo.png'
+import darkModeLogo from '../../public/logo-dark.png'
+
 const Header: FC = () => {
   const showDrawerHandler = () => {
     const navBarElement = document.getElementById('nav-bar')
@@ -27,13 +30,19 @@ const Header: FC = () => {
       <button onClick={showDrawerHandler}>
         <Icon path={mdiMenu} size={2} className='sm:hidden' />
       </button>
-      <Image
-        src='/logo.png'
-        width={150}
-        height={50}
-        className='mix-blend-multiply'
-        alt='Logo'
-      />
+      <picture>
+        <source
+          srcSet={darkModeLogo.src}
+          media='(prefers-color-scheme: dark)'
+        />
+        <Image
+          src={lightModeLogo}
+          width={48}
+          height={48}
+          className='sm:hidden'
+          alt='Logo'
+        />
+      </picture>
     </header>
   )
 }
