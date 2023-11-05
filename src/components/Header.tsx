@@ -28,7 +28,7 @@ const Header: FC = () => {
         <Icon path={mdiMenu} size={2} className='sm:hidden' />
       </button>
       <Image
-        src='/logo.jpeg'
+        src='/logo.png'
         width={150}
         height={50}
         className='mix-blend-multiply'
