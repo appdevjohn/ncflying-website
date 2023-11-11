@@ -3,22 +3,24 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-rgb: 255, 255, 255;
+  --foreground-rgb: black;
+  --background-rgb: #efefef;
+  --nav-background-rgb: #efefef;
   --accent-hex: #145DA0;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-rgb: 0, 0, 0;
+    --foreground-rgb: white;
+    --background-rgb: black;
+    --nav-background-rgb: #222222;
     --accent-hex: #2E8BC0;
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: rgb(var(--background-rgb));
+  color: var(--foreground-rgb);
+  background: var(--background-rgb);
 }
 
 h1 {
@@ -63,6 +65,10 @@ a {
 
 #page-container > main {
     padding: 0 0.5rem;
+}
+
+#nav-bar {
+    background-color: var(--nav-background-rgb);
 }
 
 .nav-link {

@@ -29,7 +29,7 @@ const NavBar: FC = () => {
       <nav
         id='nav-bar'
         className={
-          'hidden top-0 bottom-0 left-0 w-9/12 bg-white dark:bg-slate-900 z-20 p-8 pt-12 shadow-lg transition-transform -translate-x-full sm:block sm:block sm:translate-x-0 sm:shadow-none sm:p-0'
+          'hidden top-0 bottom-0 left-0 w-9/12 z-20 p-8 pt-12 shadow-lg transition-transform -translate-x-full sm:block sm:block sm:translate-x-0 sm:shadow-none sm:p-0'
         }
       >
         <picture>
@@ -61,10 +61,7 @@ const NavBar: FC = () => {
             </Link>
           </li>
           <li className='nav-link'>
-            <Link
-              href='https://docs.google.com/forms/d/e/1FAIpQLSftCCKYJED0uNI2wM0yBJ-Y49xrT1dnoe_lIId8dNFtaD5L6w/viewform?usp=sf_link'
-              target='_blank'
-            >
+            <Link href='/join' target='_blank'>
               Apply to Join
             </Link>
           </li>
