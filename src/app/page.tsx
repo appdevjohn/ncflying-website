@@ -13,27 +13,30 @@ export default function Home() {
         <h1 id='title' className={`${agbalumo.className} text-4xl sm:text-5xl`}>
           Triangle North Flying Club
         </h1>
-        <h3>Where the Skies are Yours</h3>
+        <h3>Aspiring for the Skies</h3>
         <p>
           At Triangle North, we&apos;re more than just a flying club; we&apos;re
           a community of aviation enthusiasts dedicated to making the joy of
           flying accessible and affordable. Our mission is simple: to provide
           pilots with the freedom to soar through the skies whenever they want,
-          without the constraints of traditional clubs.
+          without the constraints of traditional clubs. While we&apos;re in the
+          early stages of development and not yet operational, we&apos;re
+          passionate about creating an aviation community where members can
+          explore the skies affordably and freely.
         </p>
       </section>
       <section>
-        <h3>Your Passport to the Skies</h3>
+        <h3>Our Pledge</h3>
         <p>
           <strong>Affordability:</strong> We believe that the sky should be open
           to everyone. Our commitment is to keep flying affordable, making it
           easier for pilots to indulge in their passion regularly.
         </p>
         <p>
-          <strong>Accessibility:</strong> With our low airplane-to-pilot ratio,
-          you&apos;ll find it easier than ever to book a plane whenever the
-          aviation bug bites. No more waiting or complex scheduling; the skies
-          are yours to conquer.
+          <strong>Accessibility:</strong> We&apos;ll aim to ensure that aircraft
+          are readily available when you&apos;re ready to fly, so you&apos;ll
+          find it easier than ever to book a plane whenever the aviation bug
+          bites.
         </p>
         <p>
           <strong>Freedom to Explore:</strong> At Triangle North Flying Club, we
@@ -46,8 +49,8 @@ export default function Home() {
       <section>
         <h3>Club Features</h3>
         <p>
-          <strong>Easy Booking:</strong> Our booking system ensures that you can
-          reserve a plane with just a few clicks. No hassle, no
+          <strong>Easy Booking:</strong> Our booking system will ensure that you
+          can reserve a plane with just a few clicks. No hassle, no
           complications—just your ticket to the skies.
         </p>
         <p>
@@ -62,27 +65,32 @@ export default function Home() {
           passion, swap stories, and make lasting connections with like-minded
           individuals.
         </p>
+        <p>
+          <strong>Ownership:</strong> Become an equal owner in our non-profit
+          organization, sharing a stake in our assets and decision-making. Your
+          voice matters, and together, we shape the future of our aviation
+          community.
+        </p>
       </section>
       <section>
-        <h3>Join the Club Today!</h3>
+        <h3>Join the Journey</h3>
         <p>
-          Ready to take flight with Triangle North Flying Club? Becoming a
-          member is easy! Fill out our application and we will personally reach
-          out to you.
+          We&apos;re in the process of laying the groundwork for an incredible
+          flying club experience. While we don&apos;t have aircraft or
+          agreements with the airport just yet, we invite you to be a part of
+          our journey from the very beginning.
         </p>
-        <Link
-          href='https://docs.google.com/forms/d/e/1FAIpQLSftCCKYJED0uNI2wM0yBJ-Y49xrT1dnoe_lIId8dNFtaD5L6w/viewform?usp=sf_link'
-          target='_blank'
-        >
+        <Link href='/join' target='_blank'>
           Apply to Join
         </Link>
       </section>
       <section>
         <h3>Questions?</h3>
         <p>
-          Have questions or need more information? Don&apos;t hesitate to
-          contact us. We&apos;re here to help you navigate the skies with
-          confidence.
+          If you have any questions or want more information about our
+          club&apos;s development, please don&apos;t hesitate to contact us.
+          We&apos;re here to provide you with the latest updates and answer any
+          inquiries you may have.
         </p>
         <Link href='mailto:admin@ncflying.club'>Contact Us</Link>
       </section>

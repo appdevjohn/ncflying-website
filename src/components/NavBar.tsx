@@ -46,8 +46,8 @@ const NavBar: FC = () => {
             </Link>
           </li>
           <li className='nav-link'>
-            <Link href='/membership-info' onClick={hideDrawerHandler}>
-              Membership Info
+            <Link href='/being-a-member' onClick={hideDrawerHandler}>
+              Being a Member
             </Link>
           </li>
           <li className='nav-link'>

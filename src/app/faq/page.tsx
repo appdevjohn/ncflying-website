@@ -27,22 +27,10 @@ export default function FAQ() {
       </section>
       <section>
         <h5>What are the membership fees, and what do they cover?</h5>
-        <p>The membership fees for the club are as follows:</p>
         <p>
-          <strong>Usage Fee:</strong> This will depend on the airplane you want
-          to fly, but for the airplane we&apos;re starting with, the cost will
-          be $95 per hobbs hour (dry).
-        </p>
-        <p>
-          <strong>Monthly Fee:</strong> $70.
-        </p>
-        <p>
-          <strong>Buy In:</strong> $5000.
-        </p>
-        <p>
-          These fees cover operational costs, maintenance, and contribute to the
-          club&apos;s overall sustainability. You can learn more about it on our
-          Membership Info page.
+          Membership fees include a buy-in cost to secure your stake in the
+          club, a monthly fee, and an hourly usage rate. Specific pricing
+          details will be provided as we approach club operations.
         </p>
         <Link href='/membership-info'>Membership Info</Link>
       </section>
@@ -57,16 +45,17 @@ export default function FAQ() {
       <section>
         <h5>How does the aircraft booking system work?</h5>
         <p>
-          Booking an aircraft with Triangle North Flying Club is easy. Simply
-          log in to your member account on PreFlight, our airplane booking
-          system. From there, you&apos;ll be able to reserve the airplane, pay
-          usage fees, and more.
+          Booking an aircraft with Triangle North Flying Club will be done with
+          PreFlight, an airplane reservation app made right here in the
+          Triangle. From there, you&apos;ll be able to reserve the airplane, pay
+          usage fees, and more. We aim to keep booking accessible with minimal
+          restrictions, ensuring convenient access to our fleet.
         </p>
       </section>
       <section>
-        <h5>Are there any restrictions on where I can fly?</h5>
+        <h5>Will there be any restrictions on where I can fly?</h5>
         <p>
-          While there are no geographical restrictions on your flights, we
+          While there will be no geographical restrictions on your flights, we
           encourage responsible and safe flying practices. Please adhere to all
           airspace regulations and guidelines provided by the FAA.
         </p>
@@ -79,17 +68,17 @@ export default function FAQ() {
         <p>
           Triangle North Flying Club stands out for its commitment to
           affordability, trust in our members, and the unique ownership stake
-          each member holds. Our relaxed rules and emphasis on community make us
-          a distinctive and welcoming flying club.
+          each member holds. We prioritize creating a welcoming community where
+          members can explore aviation without unnecessary restrictions.
         </p>
       </section>
       <section>
         <h5>How often can I expect the aircraft to be available?</h5>
         <p>
-          We maintain a low airplane-to-pilot ratio to ensure that our aircraft
-          are generally available when you want to fly. This approach maximizes
-          your access to our fleet, allowing for greater flexibility in your
-          flying schedule.
+          We&apos;re committed to maintaining a low airplane-to-pilot ratio to
+          ensure that our aircraft are generally available when you want to fly.
+          Members can expect convenient access to aircraft for their flying
+          adventures.
         </p>
       </section>
       <section>
@@ -120,11 +109,9 @@ export default function FAQ() {
       <section>
         <h5>How are club decisions made, and can members be involved?</h5>
         <p>
-          Club decisions are made through a collaborative process spelled out in
-          our bylaws. Members have the opportunity to participate in important
-          decisions through voting on significant matters, ensuring that the
-          club&apos;s direction reflects the collective interests of its
-          members.
+          Members have the opportunity to participate in club decisions through
+          elections and active engagement in discussions. Participation in club
+          events and gatherings is also encouraged.
         </p>
       </section>
       <section>
@@ -141,8 +128,8 @@ export default function FAQ() {
         <h3>Have more questions?</h3>
         <p>
           If you have additional questions or need clarification on any topic,
-          feel free to contact us. We&apos;re here to assist you in every step
-          of your aviation adventure.
+          feel free to contact us. We&apos;re here to answer any questions you
+          may have.
         </p>
         <Link href='mailto:admin@ncflying.club'>Contact Us</Link>
       </section>
