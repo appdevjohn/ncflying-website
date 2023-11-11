@@ -28,10 +28,10 @@ export default function BeingAMember() {
           ongoing success of the club.
         </p>
         <p>
-          <strong>Buy In Cost:</strong> As a member, you'll be required to make
-          an initial buy in to secure your stake in the club. This investment
-          demonstrates your commitment to our shared vision and allows us to
-          acquire our fleet.
+          <strong>Buy In Cost:</strong> As a member, you&apos;ll be required to
+          make an initial buy in to secure your stake in the club. This
+          investment demonstrates your commitment to our shared vision and
+          allows us to acquire our fleet.
         </p>
         <p className='italic'>
           As we establish formal agreements, we&apos;ll be able to establish
@@ -55,8 +55,8 @@ export default function BeingAMember() {
         <h3>Connect and Socialize</h3>
         <p>
           <strong>Club Events:</strong> We host a variety of club events, both
-          aviation-related and social gatherings. It's a chance to connect with
-          fellow members and share your love for flying.
+          aviation-related and social gatherings. It&apos;s a chance to connect
+          with fellow members and share your love for flying.
         </p>
         <p>
           <strong>Community:</strong> Spend time with other club members, share
@@ -67,26 +67,27 @@ export default function BeingAMember() {
       <section>
         <h3>Ownership</h3>
         <p>
-          Being a member is not like a gym membership; you're becoming an equal
-          owner in our non-profit organization. Having equal ownership means
-          that every member holds an equal stake in the club's assets,
+          Being a member is not like a gym membership; you&apos;re becoming an
+          equal owner in our non-profit organization. Having equal ownership
+          means that every member holds an equal stake in the club&apos;s
+          assets, direction, and decision-making processes. Your voice carries
+          the same weight as any other member&apos;s when it comes to shaping
+          the future of Trianlge North Flying Club. Having equal ownership means
+          that every member holds an equal stake in the club&apos;s assets,
           direction, and decision-making processes. Your voice carries the same
-          weight as any other member's when it comes to shaping the future of
-          Trianlge North Flying Club. Having equal ownership means that every
-          member holds an equal stake in the club's assets, direction, and
-          decision-making processes. Your voice carries the same weight as any
-          other member's when it comes to shaping the future of the club.
+          weight as any other member&apos;s when it comes to shaping the future
+          of the club.
         </p>
       </section>
       <section>
         <h3>Join the Adventure!</h3>
         <p>
           Being a member of Triangle North Flying Club means being part of an
-          exciting adventure. While we don't have specific pricing details
+          exciting adventure. While we don&apos;t have specific pricing details
           available at this time, we want you to know that your financial
-          commitment supports our shared goals and vision. It's an investment in
-          an aviation community that values affordability, accessibility, and
-          relaxed rules.
+          commitment supports our shared goals and vision. It&apos;s an
+          investment in an aviation community that values affordability,
+          accessibility, and relaxed rules.
         </p>
         <p>
           Ready to embark on this journey with us? We invite you to become a
@@ -101,9 +102,9 @@ export default function BeingAMember() {
         <h3>Have Questions?</h3>
         <p>
           If you have any questions or need more information about member
-          responsibilities and what it's like to be a part of Trianlge North
-          Flying Club, please don't hesitate to contact us. We're here to
-          provide you with all the details you need.
+          responsibilities and what it&apos;s like to be a part of Trianlge
+          North Flying Club, please don&apos;t hesitate to contact us.
+          We&apos;re here to provide you with all the details you need.
         </p>
         <Link href='mailto:admin@ncflying.club'>Contact Us</Link>
       </section>
