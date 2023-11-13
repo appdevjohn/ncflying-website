@@ -73,6 +73,19 @@ export default function Home() {
         </p>
       </section>
       <section>
+        <h3>Fleet</h3>
+        <p>
+          While Triangle North Flying Club currently doesn't have aircraft,
+          we're diligently preparing to introduce a diverse fleet featuring
+          accessible and cost-effective options like Cessna 172s and Piper
+          Cherokees. These airplanes don&apos;t require any special ratings or
+          endorsements, so any private pilot can jump right in. Our commitment
+          to full ownership and willingness to explore leaseback arrangements
+          ensures that our aircraft remain readily available to members,
+          supporting our vision of affordability and accessibility in aviation.
+        </p>
+      </section>
+      <section>
         <h3>Join the Journey</h3>
         <p>
           We&apos;re in the process of laying the groundwork for an incredible

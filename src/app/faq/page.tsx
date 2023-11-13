@@ -43,6 +43,14 @@ export default function FAQ() {
         </p>
       </section>
       <section>
+        <h5>Will the club provide flight training or other services?</h5>
+        <p>
+          No, we will not be providing flight training or other services. But,
+          you can train with CFIs who are not affiliated with the club in club
+          aircraft.
+        </p>
+      </section>
+      <section>
         <h5>How does the aircraft booking system work?</h5>
         <p>
           Booking an aircraft with Triangle North Flying Club will be done with
