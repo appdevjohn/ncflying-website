@@ -123,13 +123,20 @@ export default function FAQ() {
         </p>
       </section>
       <section>
+        <h5>What kind of entity is the club?</h5>
+        <p>
+          Triangle North Flying Club is presently incorporated as a 501(c)(7)
+          non-profit corporation.
+        </p>
+      </section>
+      <section>
         <h5>What happens if I want to leave the club?</h5>
         <p>
           Members looking to resign must sell their share to the next individual
           on the club&apos;s waitlist. During this transitional period,
           resigning members will continue to be responsible for paying monthly
           fees until their stake is successfully transferred to a new member.
-          This process is described clearly in our bylaws.
+          This process is described in our bylaws.
         </p>
       </section>
       <section>
