@@ -72,11 +72,7 @@ export default function BeingAMember() {
           means that every member holds an equal stake in the club&apos;s
           assets, direction, and decision-making processes. Your voice carries
           the same weight as any other member&apos;s when it comes to shaping
-          the future of Trianlge North Flying Club. Having equal ownership means
-          that every member holds an equal stake in the club&apos;s assets,
-          direction, and decision-making processes. Your voice carries the same
-          weight as any other member&apos;s when it comes to shaping the future
-          of the club.
+          the future of Trianlge North Flying Club.
         </p>
       </section>
       <section>
