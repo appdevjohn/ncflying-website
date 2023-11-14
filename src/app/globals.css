@@ -3,25 +3,131 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: black;
+  --background-rgb: #efefef;
+  --nav-background-rgb: #efefef;
+  --accent-hex: #145DA0;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --foreground-rgb: white;
+    --background-rgb: black;
+    --nav-background-rgb: #222222;
+    --accent-hex: #2E8BC0;
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: var(--foreground-rgb);
+  background: var(--background-rgb);
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 1.5em;
+    margin-bottom: 0.4em;
+}
+
+h5 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.25em;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+p {
+    margin-bottom: 0.5em;
+}
+
+a {
+    color: var(--accent-hex);
+    font-weight: 500;
+}
+
+#page-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 64rem;
+    margin: auto;
+}
+
+#page-container > main {
+    padding: 0 0.5rem;
+}
+
+#nav-bar {
+    background-color: var(--nav-background-rgb);
+}
+
+.nav-link {
+    margin-bottom: 0.75em;
+}
+
+.nav-link > a {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.fleet-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+
+@media (min-width: 40rem) {
+    h1 {
+        font-size: 2.5em;
+        margin-top: 0.75em;
+        margin-bottom: 1em;
+    }
+    
+    h3 {
+        font-size: 2em;
+        margin-bottom: 0.5em;
+    }
+    
+    h5 {
+        font-size: 1.2rem;
+        margin-bottom: 0.5em;
+    }
+
+    #page-container {
+        grid-template-columns: 12rem 1fr;
+    }
+
+    #page-container > main {
+        padding: 0;
+    }
+
+    #nav-bar {
+        background-color: transparent;
+    }
+
+    .nav-link {
+        margin-bottom: 0.5em;
+    }
+
+    .nav-link > a {
+        font-size: 1.1em;
+        font-weight: 500;
+    }
+
+    .fleet-section {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+    }
 }
