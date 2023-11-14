@@ -16,7 +16,7 @@ export default function BeingAMember() {
       </section>
 
       <section>
-        <h3>Pricing</h3>
+        <h3>Financial Structure</h3>
         <p>
           <strong>Usage Rate:</strong> When you fly, there will be an hourly
           usage rate for each airplane. This fee allows us to maintain our fleet
@@ -65,7 +65,7 @@ export default function BeingAMember() {
         </p>
       </section>
       <section>
-        <h3>Ownership</h3>
+        <h3>Member-Owned</h3>
         <p>
           Being a member is not like a gym membership; you&apos;re becoming an
           equal owner in our non-profit organization. Having equal ownership
