@@ -98,7 +98,7 @@ export default function BeingAMember() {
         <h3>Have Questions?</h3>
         <p>
           If you have any questions or need more information about member
-          responsibilities and what it&apos;s like to be a part of Trianlge
+          responsibilities and what it&apos;s like to be a part of Triangle
           North Flying Club, please don&apos;t hesitate to contact us.
           We&apos;re here to provide you with all the details you need.
         </p>
