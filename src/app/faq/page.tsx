@@ -32,7 +32,7 @@ export default function FAQ() {
           club, a monthly fee, and an hourly usage rate. Specific pricing
           details will be provided as we approach club operations.
         </p>
-        <Link href='/membership-info'>Membership Info</Link>
+        <Link href='/being-a-member'>Membership Info</Link>
       </section>
       <section>
         <h5>Can I join if I don&apos;t have a pilot&apos;s license?</h5>
