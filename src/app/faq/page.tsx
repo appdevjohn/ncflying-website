@@ -18,10 +18,7 @@ export default function FAQ() {
           membership form. We&apos;ll get back to you soon thereafter and guide
           you through the necessary steps to join our aviation family.
         </p>
-        <Link
-          href='https://docs.google.com/forms/d/e/1FAIpQLSftCCKYJED0uNI2wM0yBJ-Y49xrT1dnoe_lIId8dNFtaD5L6w/viewform?usp=sf_link'
-          target='_blank'
-        >
+        <Link href='/join' target='_blank'>
           Apply to Join
         </Link>
       </section>
