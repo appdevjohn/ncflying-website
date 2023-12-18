@@ -22,7 +22,7 @@ export default function RootLayout({
         <Header />
         <div id='page-container' className='sm:px-4'>
           <NavBar />
-          <main>{children}</main>
+          <main className='mb-8'>{children}</main>
         </div>
       </body>
     </html>

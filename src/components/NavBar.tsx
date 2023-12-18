@@ -51,6 +51,11 @@ const NavBar: FC = () => {
             </Link>
           </li>
           <li className='nav-link'>
+            <Link href='/sell-leaseback' onClick={hideDrawerHandler}>
+              Sell or Leaseback
+            </Link>
+          </li>
+          <li className='nav-link'>
             <Link href='/faq' onClick={hideDrawerHandler}>
               FAQs
             </Link>
