@@ -106,7 +106,7 @@ a {
     }
 
     #page-container {
-        grid-template-columns: 12rem 1fr;
+        grid-template-columns: 12.5rem 1fr;
     }
 
     #page-container > main {
